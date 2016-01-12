@@ -1,5 +1,3 @@
-"format cjs";
-
 (function (angular) {
 	
 	var angularModule = angular.module('angular-clipboard', [])
