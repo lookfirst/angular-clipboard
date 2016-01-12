@@ -1,3 +1,5 @@
+"format cjs";
+
 (function (angular) {
 	
 	var angularModule = angular.module('angular-clipboard', [])
@@ -69,5 +71,5 @@
 		module.exports = angularModule;
 	}
 	
-})(angular);
+})(window.angular);
 
